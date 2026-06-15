@@ -1,0 +1,19 @@
+{
+  "block.tf1.capture_point": "Capture Point",
+  "message.tf1.capture.neutral_captured": "%s has captured neutral Point %s",
+  "message.tf1.capture.enemy_captured": "%s has captured Point %s (was: %s)",
+  "message.tf1.capture.enemy_capturing": "%s is trying to capture your Point %s",
+
+  "message.tf1.team.joined": "You joined team %s",
+  "message.tf1.team.left": "You left your team (now Neutral)",
+  "message.tf1.team.current_team": "Your team: %s",
+  "message.tf1.team.none": "You are not in any team",
+
+  "command.tf1.capturetime.set": "Capture time set to %s seconds",
+  "command.tf1.friendlyfire.enabled": "Friendly fire: ENABLED",
+  "command.tf1.friendlyfire.disabled": "Friendly fire: DISABLED",
+  "command.tf1.error.unknown_team": "Unknown team: %s. Available: red, blue, green, gold",
+
+  "ui.tf1.bossbar.point": "Point %s",
+  "ui.tf1.bossbar.capturing": "%s capturing %s"
+}

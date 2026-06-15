@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tf1:block/capture_point"
+    }
+  }
+}

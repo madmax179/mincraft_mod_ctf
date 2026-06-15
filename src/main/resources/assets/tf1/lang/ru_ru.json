@@ -1,0 +1,19 @@
+{
+  "block.tf1.capture_point": "Точка захвата",
+  "message.tf1.capture.neutral_captured": "%s захватил нейтральную Точку %s",
+  "message.tf1.capture.enemy_captured": "%s захватил Точку %s (ранее: %s)",
+  "message.tf1.capture.enemy_capturing": "%s пытается захватить вашу Точку %s",
+
+  "message.tf1.team.joined": "Вы вступили в команду %s",
+  "message.tf1.team.left": "Вы покинули команду (теперь Нейтральный)",
+  "message.tf1.team.current_team": "Ваша команда: %s",
+  "message.tf1.team.none": "Вы не состоите ни в одной команде",
+
+  "command.tf1.capturetime.set": "Время захвата установлено: %s сек.",
+  "command.tf1.friendlyfire.enabled": "Дружественный огонь: ВКЛЮЧЁН",
+  "command.tf1.friendlyfire.disabled": "Дружественный огонь: ВЫКЛЮЧЕН",
+  "command.tf1.error.unknown_team": "Неизвестная команда: %s. Доступны: red, blue, green, gold",
+
+  "ui.tf1.bossbar.point": "Точка %s",
+  "ui.tf1.bossbar.capturing": "%s захватывает %s"
+}
