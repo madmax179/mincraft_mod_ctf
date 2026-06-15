@@ -8,6 +8,7 @@
   "message.tf1.team.left": "You left your team (now Neutral)",
   "message.tf1.team.current_team": "Your team: %s",
   "message.tf1.team.none": "You are not in any team",
+  "message.tf1.team.auto_assigned": "You were auto-assigned to team %s",
 
   "command.tf1.capturetime.set": "Capture time set to %s seconds",
   "command.tf1.friendlyfire.enabled": "Friendly fire: ENABLED",
@@ -15,5 +16,30 @@
   "command.tf1.error.unknown_team": "Unknown team: %s. Available: red, blue, green, gold",
 
   "ui.tf1.bossbar.point": "Point %s",
-  "ui.tf1.bossbar.capturing": "%s capturing %s"
+  "ui.tf1.bossbar.capturing": "%s capturing %s",
+
+  "command.ctf.start.announced": "%s started pregame! %s seconds to choose a team. Use: /tf1 join <red|blue|green|gold>",
+  "command.ctf.stop.stopped": "Game stopped by admin.",
+  "command.ctf.restart.restarted": "Game fully restarted by admin. All scores cleared.",
+
+  "command.ctf.pregame.countdown": "Game starting in %s seconds!",
+
+  "command.ctf.round.start": "=== Round %s BEGIN! ===",
+  "command.ctf.round.winner_hold": "%s wins the round by hold time!",
+  "command.ctf.round.winner_time": "Time's up! %s wins the round!",
+  "command.ctf.round.end_no_winner": "Time's up! No winner this round (all teams at 0 hold time).",
+
+  "command.ctf.match.winner": "=== MATCH OVER! %s wins the match! ===",
+  "command.ctf.match.restart_hint": "Use /ctf-start to begin a new match.",
+
+  "command.ctf.admin.auto_assigned": "You are the CTF admin (first player to join).",
+  "command.ctf.admin.claimed": "%s is now the CTF admin.",
+  "command.ctf.admin.transferred": "%s is now the CTF admin.",
+  "command.ctf.admin.already_set": "An admin is already assigned. Ask them to use /ctf-admin set <you>.",
+
+  "command.ctf.error.not_admin": "You must be the CTF admin to do this.",
+  "command.ctf.error.no_game": "No game is currently running.",
+  "command.ctf.error.pregame_active": "Pregame is already active.",
+  "command.ctf.error.game_in_progress": "A game is in progress. Use /ctf-stop first."
 }
+

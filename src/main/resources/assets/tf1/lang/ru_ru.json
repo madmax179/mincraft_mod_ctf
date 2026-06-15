@@ -8,6 +8,7 @@
   "message.tf1.team.left": "Вы покинули команду (теперь Нейтральный)",
   "message.tf1.team.current_team": "Ваша команда: %s",
   "message.tf1.team.none": "Вы не состоите ни в одной команде",
+  "message.tf1.team.auto_assigned": "Вы автоматически распределены в команду %s",
 
   "command.tf1.capturetime.set": "Время захвата установлено: %s сек.",
   "command.tf1.friendlyfire.enabled": "Дружественный огонь: ВКЛЮЧЁН",
@@ -15,5 +16,30 @@
   "command.tf1.error.unknown_team": "Неизвестная команда: %s. Доступны: red, blue, green, gold",
 
   "ui.tf1.bossbar.point": "Точка %s",
-  "ui.tf1.bossbar.capturing": "%s захватывает %s"
+  "ui.tf1.bossbar.capturing": "%s захватывает %s",
+
+  "command.ctf.start.announced": "%s начал предигру! %s секунд на выбор команды. Команда: /tf1 join <red|blue|green|gold>",
+  "command.ctf.stop.stopped": "Игра остановлена администратором.",
+  "command.ctf.restart.restarted": "Игра перезапущена администратором. Все очки сброшены.",
+
+  "command.ctf.pregame.countdown": "Игра начнётся через %s секунд!",
+
+  "command.ctf.round.start": "=== Раунд %s НАЧАЛСЯ! ===",
+  "command.ctf.round.winner_hold": "%s выигрывает раунд по времени захвата!",
+  "command.ctf.round.winner_time": "Время вышло! %s выигрывает раунд!",
+  "command.ctf.round.end_no_winner": "Время вышло! Победителя нет (все команды без очков).",
+
+  "command.ctf.match.winner": "=== МАТЧ ОКОНЧЕН! %s побеждает в матче! ===",
+  "command.ctf.match.restart_hint": "Используйте /ctf-start для начала нового матча.",
+
+  "command.ctf.admin.auto_assigned": "Вы стали администратором CTF (первый вошедший игрок).",
+  "command.ctf.admin.claimed": "%s теперь администратор CTF.",
+  "command.ctf.admin.transferred": "%s теперь администратор CTF.",
+  "command.ctf.admin.already_set": "Администратор уже назначен. Попросите его использовать /ctf-admin set <вы>.",
+
+  "command.ctf.error.not_admin": "Вы должны быть администратором CTF для этого действия.",
+  "command.ctf.error.no_game": "Игра в данный момент не запущена.",
+  "command.ctf.error.pregame_active": "Предигра уже активна.",
+  "command.ctf.error.game_in_progress": "Игра уже идёт. Сначала используйте /ctf-stop."
 }
+
