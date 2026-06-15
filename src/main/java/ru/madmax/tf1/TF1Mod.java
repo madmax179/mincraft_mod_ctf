@@ -8,7 +8,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 import net.minecraftforge.event.RegisterCommandsEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import ru.madmax.tf1.command.CtfCommand;
 import ru.madmax.tf1.command.TF1Command;
 import ru.madmax.tf1.event.TF1EventHandlers;
 import ru.madmax.tf1.registry.ModBlockEntities;
@@ -37,6 +36,5 @@ public class TF1Mod {
     @SubscribeEvent
     public void onRegisterCommands(RegisterCommandsEvent event) {
         TF1Command.register(event.getDispatcher());
-        CtfCommand.register(event.getDispatcher());
     }
 }
